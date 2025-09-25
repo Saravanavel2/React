@@ -1,0 +1,500 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "saravana",
+      "regNo": "CSE1001",
+      "department": "CSE",
+      "section": "A",
+      "semester": 5
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "regNo": "CSE1002",
+      "department": "CSE",
+      "section": "A",
+      "semester": 5
+    },
+    {
+      "id": "3",
+      "name": "Alice Johnson",
+      "regNo": "ECE1001",
+      "department": "ECE",
+      "section": "B",
+      "semester": 3
+    },
+    {
+      "id": "4",
+      "name": "Bob Williams",
+      "regNo": "MECH1001",
+      "department": "MECH",
+      "section": "C",
+      "semester": 4
+    }
+  ],
+  "subjects": [
+    {
+      "id": "1",
+      "name": "Maths",
+      "department": "CSE",
+      "section": "A"
+    },
+    {
+      "id": "2",
+      "name": "Physics",
+      "department": "CSE",
+      "section": "A"
+    },
+    {
+      "id": "3",
+      "name": "Electronics",
+      "department": "ECE",
+      "section": "B"
+    },
+    {
+      "id": "4",
+      "name": "Mechanics",
+      "department": "MECH",
+      "section": "C"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "a1",
+      "studentId": "1",
+      "subjectId": "1",
+      "date": "2025-09-24",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "a2",
+      "studentId": "2",
+      "subjectId": "1",
+      "date": "2025-09-24",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "a3",
+      "studentId": "1",
+      "subjectId": "2",
+      "date": "2025-09-25",
+      "period": 2,
+      "status": "onDuty"
+    },
+    {
+      "id": "a4",
+      "studentId": "3",
+      "subjectId": "3",
+      "date": "2025-09-24",
+      "period": 1,
+      "status": "present"
+    },
+    {
+      "id": "a5",
+      "studentId": "4",
+      "subjectId": "4",
+      "date": "2025-09-24",
+      "period": 1,
+      "status": "present"
+    },
+    {
+      "id": "a6",
+      "studentId": "1",
+      "subjectId": "1",
+      "date": "2025-08-31",
+      "period": 1,
+      "status": "present"
+    },
+    {
+      "id": "a7",
+      "studentId": "2",
+      "subjectId": "1",
+      "date": "2025-08-31",
+      "period": 1,
+      "status": "absent"
+    },
+    {
+      "id": "a8",
+      "studentId": "1",
+      "subjectId": "2",
+      "date": "2025-08-31",
+      "period": 2,
+      "status": "onDuty"
+    },
+    {
+      "id": "a9",
+      "studentId": "2",
+      "subjectId": "2",
+      "date": "2025-08-31",
+      "period": 2,
+      "status": "present"
+    },
+    {
+      "id": "a10",
+      "studentId": "3",
+      "subjectId": "3",
+      "date": "2025-08-31",
+      "period": 1,
+      "status": "present"
+    },
+    {
+      "id": "a11",
+      "studentId": "4",
+      "subjectId": "4",
+      "date": "2025-08-31",
+      "period": 1,
+      "status": "present"
+    },
+    {
+      "id": "7781",
+      "studentId": "1",
+      "subjectId": 1,
+      "date": "2025-09-23",
+      "period": 1,
+      "status": "present"
+    },
+    {
+      "id": "1026",
+      "studentId": "2",
+      "subjectId": 1,
+      "date": "2025-09-23",
+      "period": 1,
+      "status": "present"
+    },
+    {
+      "id": "932c",
+      "studentId": "1",
+      "subjectId": 2,
+      "date": "2025-09-30",
+      "period": 1,
+      "status": "present"
+    },
+    {
+      "id": "d0be",
+      "studentId": "2",
+      "subjectId": 2,
+      "date": "2025-09-30",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "9411",
+      "studentId": "1",
+      "subjectId": 2,
+      "date": "2025-09-24",
+      "period": "4",
+      "status": "onDuty"
+    },
+    {
+      "id": "c954",
+      "studentId": "2",
+      "subjectId": 2,
+      "date": "2025-09-24",
+      "period": "4",
+      "status": "onDuty"
+    },
+    {
+      "id": "6ec2",
+      "studentId": "1",
+      "subjectId": 2,
+      "date": "2025-09-25",
+      "period": "4",
+      "status": "onDuty"
+    },
+    {
+      "id": "2b34",
+      "studentId": "2",
+      "subjectId": 2,
+      "date": "2025-09-25",
+      "period": "4",
+      "status": "onDuty"
+    },
+    {
+      "id": "81b2",
+      "studentId": "3",
+      "subjectId": 3,
+      "date": "2025-09-25",
+      "period": "6",
+      "status": "onDuty"
+    },
+    {
+      "id": "9123",
+      "studentId": "1",
+      "subjectId": 1,
+      "date": "2025-09-14",
+      "period": 1,
+      "status": "absent"
+    },
+    {
+      "id": "caa1",
+      "studentId": "1",
+      "subjectId": 1,
+      "date": "2025-09-25",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "1dfb",
+      "studentId": "1",
+      "subjectId": 1,
+      "date": "2025-09-29",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "6dc1",
+      "studentId": "2",
+      "subjectId": 1,
+      "date": "2025-09-29",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "36fa",
+      "studentId": "1",
+      "subjectId": 2,
+      "date": "2025-09-04",
+      "period": 3,
+      "status": "absent"
+    },
+    {
+      "id": "38e9",
+      "studentId": "2",
+      "subjectId": 2,
+      "date": "2025-09-04",
+      "period": 3,
+      "status": "absent"
+    },
+    {
+      "id": "8416",
+      "studentId": "1",
+      "subjectId": 1,
+      "date": "2025-09-21",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "8451",
+      "studentId": "2",
+      "subjectId": 1,
+      "date": "2025-09-21",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "3074",
+      "studentId": "1",
+      "subjectId": 1,
+      "date": "2025-09-28",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "7df8",
+      "studentId": "2",
+      "subjectId": 1,
+      "date": "2025-09-28",
+      "period": 1,
+      "status": "present"
+    },
+    {
+      "id": "6d40",
+      "studentId": "1",
+      "subjectId": 1,
+      "date": "2025-09-15",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "2414",
+      "studentId": "1",
+      "subjectId": 1,
+      "date": "2025-09-18",
+      "period": 1,
+      "status": "present"
+    },
+    {
+      "id": "3425",
+      "studentId": "1",
+      "subjectId": 1,
+      "date": "2025-10-02",
+      "period": 1,
+      "status": "present"
+    },
+    {
+      "id": "d247",
+      "studentId": "2",
+      "subjectId": 1,
+      "date": "2025-10-02",
+      "period": 1,
+      "status": "present"
+    },
+    {
+      "id": "8457",
+      "studentId": "1",
+      "subjectId": 1,
+      "date": "2025-10-04",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "fa51",
+      "studentId": "2",
+      "subjectId": 1,
+      "date": "2025-10-04",
+      "period": 1,
+      "status": "absent"
+    },
+    {
+      "id": "9175",
+      "studentId": "1",
+      "subjectId": 1,
+      "date": "2025-09-20",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "e3cb",
+      "studentId": "2",
+      "subjectId": 1,
+      "date": "2025-09-20",
+      "period": 1,
+      "status": "present"
+    },
+    {
+      "id": "a8e8",
+      "studentId": "1",
+      "subjectId": 1,
+      "date": "2025-10-03",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "67a1",
+      "studentId": "2",
+      "subjectId": 1,
+      "date": "2025-10-03",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "01ff",
+      "studentId": "1",
+      "subjectId": 1,
+      "date": "2025-09-22",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "74ff",
+      "studentId": "2",
+      "subjectId": 1,
+      "date": "2025-09-22",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "80df",
+      "studentId": "1",
+      "subjectId": 1,
+      "date": "2025-09-30",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "01df",
+      "studentId": "2",
+      "subjectId": 1,
+      "date": "2025-09-30",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "008b",
+      "studentId": "1",
+      "subjectId": 1,
+      "date": "2025-09-10",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "c938",
+      "studentId": "2",
+      "subjectId": 1,
+      "date": "2025-09-10",
+      "period": 1,
+      "status": "onDuty"
+    },
+    {
+      "id": "f663",
+      "studentId": "1",
+      "subjectId": 1,
+      "date": "2025-10-17",
+      "period": 1,
+      "status": "present"
+    },
+    {
+      "id": "ccd6",
+      "studentId": "2",
+      "subjectId": 1,
+      "date": "2025-10-17",
+      "period": 1,
+      "status": "present"
+    },
+    {
+      "id": "0215",
+      "studentId": "2",
+      "subjectId": 1,
+      "date": "2025-09-25",
+      "period": 1,
+      "status": "present"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "1",
+      "name": "hari",
+      "department": "CSE",
+      "subjects": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Dr. Brown",
+      "department": "ECE",
+      "subjects": [
+        "3"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Prof. Green",
+      "department": "MECH",
+      "subjects": [
+        "4"
+      ]
+    }
+  ],
+  "counsellors": [
+    {
+      "id": "1",
+      "name": "cc",
+      "department": "CSE"
+    },
+    {
+      "id": "2",
+      "name": "Mr. Lee",
+      "department": "ECE"
+    },
+    {
+      "id": "3",
+      "name": "Mrs. White",
+      "department": "MECH"
+    }
+  ]
+}
